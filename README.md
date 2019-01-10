@@ -1,4 +1,4 @@
-# centos7.3 설치
+# centos7.3  apache2.4 mariadb10.3 mysql7.2 install 
 
 ```
 https://www.rosehosting.com/blog/how-to-install-php-7-2-on-centos-7/
