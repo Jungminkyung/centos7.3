@@ -136,7 +136,7 @@ configure에러날때
 freetype오류때문에 ffmpeg설치 진행이 안됨.(2019-01-10) 
 yum remove freetype*
 삭제후에 되는 서버에서 아래 내용을 복사해온다(2.4.11-15.el7 버전.아래링크에서 다운로드후에 알맞은 위치에 위치시켜준다....) .
-다운주소 https://github.com/Jungminkyung/centos7.3/blob/master/freetype2.zip
+다운주소 https://github.com/Jungminkyung/centos7.3/raw/master/freetype2.7z
 
 
 /usr/bin/freetype-config
