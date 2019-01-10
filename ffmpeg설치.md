@@ -104,6 +104,9 @@ make install
 
 
 되는 서버에서 아래 내용을 복사해온다(2.4.11-15.el7 버전.첨부파일.) .freetype오류때문에 ffmpeg설치 진행이 안됨.(2019-01-10)
+다운주소 https://github.com/Jungminkyung/centos7.3/blob/master/freetype2.zip
+각자 파일들을 알맞은 위치에 넣어준다.
+
 /usr/bin/freetype-config
 /usr/lib64/pkgconfig/freetype2.pc
 /usr/lib64/girepository-1.0/freetype2-2.0.typelib
