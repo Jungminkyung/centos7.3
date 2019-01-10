@@ -102,23 +102,6 @@ cd libvpx
 make
 make install
 
-
-되는 서버에서 아래 내용을 복사해온다(2.4.11-15.el7 버전.첨부파일.) .freetype오류때문에 ffmpeg설치 진행이 안됨.(2019-01-10)
-다운주소 https://github.com/Jungminkyung/centos7.3/blob/master/freetype2.zip
-각자 파일들을 알맞은 위치에 넣어준다.
-
-/usr/bin/freetype-config
-/usr/lib64/pkgconfig/freetype2.pc
-/usr/lib64/girepository-1.0/freetype2-2.0.typelib
-/usr/share/doc/freetype-2.4.11
-/usr/share/doc/freetype-devel-2.4.11
-/usr/share/aclocal/freetype2.m4
-/usr/include/freetype2
-/usr/include/freetype2/freetype
-/usr/include/freetype2/freetype/freetype.h
-
-
-
 cd ~/ffmpeg_sources
 
 git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
@@ -146,6 +129,26 @@ PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./conf
 make
 make install
 hash -r
+
+####
+configure에러날때
+
+freetype오류때문에 ffmpeg설치 진행이 안됨.(2019-01-10) 
+yum remove freetype*
+삭제후에 되는 서버에서 아래 내용을 복사해온다(2.4.11-15.el7 버전.아래링크에서 다운로드후에 알맞은 위치에 위치시켜준다....) .
+다운주소 https://github.com/Jungminkyung/centos7.3/blob/master/freetype2.zip
+
+
+/usr/bin/freetype-config
+/usr/lib64/pkgconfig/freetype2.pc
+/usr/lib64/girepository-1.0/freetype2-2.0.typelib
+/usr/share/doc/freetype-2.4.11
+/usr/share/doc/freetype-devel-2.4.11
+/usr/share/aclocal/freetype2.m4
+/usr/include/freetype2
+/usr/include/freetype2/freetype
+/usr/include/freetype2/freetype/freetype.h
+ffmpeg configure다시 시도.
 ```
 
 
