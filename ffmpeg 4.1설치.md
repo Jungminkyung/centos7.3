@@ -148,6 +148,11 @@ yum remove freetype*
 /usr/include/freetype2
 /usr/include/freetype2/freetype
 /usr/include/freetype2/freetype/freetype.h
+/usr/lib64/libfreetype.so.6.10.0
+
+ln -s /usr/lib64/libfreetype.so.6.10.0 /usr/lib64/libfreetype.so
+ln -s /usr/lib64/libfreetype.so.6.10.0 /usr/lib64/libfreetype.so.6
+
 ffmpeg configure다시 시도.
 ```
 
