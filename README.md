@@ -29,6 +29,7 @@ yum install php72w
 
 yum install php72w-b* php72w-c* php72w-d* php72w-e* php72w-f* php72w-g* php72w-i* php72w-l*
 yum install php72w-p* php72w-mysqlnd* php72w-o* php72w-p* php72w-r* php72w-s* php72w-t* php72w-x*
+yum install php72w-mbstring.x86_64
 
 yum search php72w
 
