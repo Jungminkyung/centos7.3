@@ -6,7 +6,7 @@
 
 Storage를 잘 구동되는 서버에 연결
 
-/dev/xvdb가 연결되었다고 가정하자.
+fdisk -l 로 /dev/xvdb가 연결되었다고 가정하자.
 
 /dev/xvdb1 /dev/xvdb2 /dev/xvdb3가 있다. ( 부팅, 스왑, 데이터 )
 
