@@ -1,0 +1,17 @@
+부팅이안되는 서버의 데이터를 백업하려 할때.
+
+서버의 스냅샷 생성
+
+스냅샷으로 Storage생성
+
+Storage를 잘 구동되는 서버에 연결
+
+/dev/xvdb가 연결되었다고 가정하자.
+
+/dev/xvdb1 /dev/xvdb2 /dev/xvdb3가 있다. ( 부팅, 스왑, 데이터 )
+
+mount /dev/xvdb3 하면 오류가 뜬다. 오류내용은 XFS: Filesystem sdb7 has duplicate UUID - can't mount
+
+mount -o nouuid /dev/sdb7 disk-7    ( https://linux-tips.com/t/xfs-filesystem-has-duplicate-uuid-problem/181 )
+
+성공.
