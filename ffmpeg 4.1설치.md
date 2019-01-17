@@ -130,6 +130,11 @@ make
 make install
 hash -r
 
+
+권한때문에 아파치에서 실행이 안될수 있다. bin에 있는 파일들 (ffmpeg,ffprobe,lame,nasm,ndisasm,vsyasm,x264,yasm,ytasm) 복사해준다.
+chmod 777 *
+cp -r * /usr/local/bin
+
 ####
 configure에러날때
 
