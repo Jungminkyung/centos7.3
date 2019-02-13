@@ -136,7 +136,7 @@ chmod 777 *
 cp -r * /usr/local/bin
 
 ####
-configure에러날때
+~~configure에러날때
 
 freetype오류때문에 ffmpeg설치 진행이 안됨.(2019-01-10) 
 yum remove freetype*
@@ -158,7 +158,7 @@ yum remove freetype*
 ln -s /usr/lib64/libfreetype.so.6.10.0 /usr/lib64/libfreetype.so
 ln -s /usr/lib64/libfreetype.so.6.10.0 /usr/lib64/libfreetype.so.6
 
-ffmpeg configure다시 시도.
+ffmpeg configure다시 시도.~~
 ```
 
 
