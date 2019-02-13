@@ -135,9 +135,12 @@ hash -r
 chmod 777 *
 cp -r * /usr/local/bin
 
-####
-~~configure에러날때
+#### 
+configure에러날때. 그냥 freetype옵션을 삭제하고 인스톨하자.
 
+
+
+====아래방법은 이전에 됬는데 지금은 안된다.
 freetype오류때문에 ffmpeg설치 진행이 안됨.(2019-01-10) 
 yum remove freetype*
 삭제후에 되는 서버에서 아래 내용을 복사해온다(2.4.11-15.el7 버전.아래링크에서 다운로드후에 알맞은 위치에 위치시켜준다....) .
@@ -158,7 +161,7 @@ yum remove freetype*
 ln -s /usr/lib64/libfreetype.so.6.10.0 /usr/lib64/libfreetype.so
 ln -s /usr/lib64/libfreetype.so.6.10.0 /usr/lib64/libfreetype.so.6
 
-ffmpeg configure다시 시도.~~
+ffmpeg configure다시 시도.
 ```
 
 
