@@ -3,7 +3,7 @@ reference : https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 작성일 2019-01-10
 
 yum install autoconf automake bzip2 cmake freetype-devel gcc gcc-c++ git libtool make mercurial pkgconfig zlib-devel
-
+mkdir ~/ffmpeg_sources
 
 cd ~/ffmpeg_sources
 curl -O -L https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.bz2
